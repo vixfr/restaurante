@@ -14,7 +14,6 @@ h1 {
     width: 60%;             /* Ancho del título */
     font-family: Arial, sans-serif; /* Tipo de fuente */
   }
-
 .comida-card {
   border: 1px solid #ccc;
   padding: 10px;
