@@ -12,8 +12,6 @@ h1 {
     width: 60%;             /* Ancho del título */
     font-family: Arial, sans-serif; /* Tipo de fuente */
   }
-  .comida-card {
-=======
 .comida-card {
 >>>>>>> Stashed changes
   border: 1px solid #ccc;
