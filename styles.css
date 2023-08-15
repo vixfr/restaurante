@@ -1,0 +1,14 @@
+/* Estilos para el título centrado */
+h1 {
+    text-align: center;     /* Centrar el texto */
+    font-size: 36px;        /* Tamaño de la fuente */
+    color: #333;            /* Color del texto */
+    background-color: #f7f7f7; /* Color de fondo */
+    padding: 20px;          /* Espaciado interno */
+    border-radius: 10px;    /* Borde redondeado */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin: 0 auto;         /* Margen automático para centrar horizontalmente */
+    width: 60%;             /* Ancho del título */
+    font-family: Arial, sans-serif; /* Tipo de fuente */
+  }
+  
