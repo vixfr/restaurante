@@ -1,23 +1,33 @@
-const infoDiv = document.getElementById('info');
 
-jsonData.forEach(comida => {
-    const comidaDiv = document.createElement('div');
+fetch('comida.json')
+.then(response => response.json())
+.then(jsonData => {
+    const infoDiv = document.getElementById('info');
 
-    const nombreP = document.createElement('p');
-    nombreP.textContent = `Nombre: ${comida.nombre}`;
-    comidaDiv.appendChild(nombreP);
+    jsonData.forEach(comida => {
+        const comidaDiv = document.createElement('div');
 
-    const tipoP = document.createElement('p');
-    tipoP.textContent = `Tipo: ${comida.tipo}`;
-    comidaDiv.appendChild(tipoP);
+        const nombreP = document.createElement('p');
+        nombreP.textContent = `Nombre: ${comida.nombre}`;
+        comidaDiv.appendChild(nombreP);
 
-    const ingredientesP = document.createElement('p');
-    ingredientesP.textContent = `Ingredientes: ${comida.ingredientes.join(', ')}`;
-    comidaDiv.appendChild(ingredientesP);
+        const tipoP = document.createElement('p');
+        tipoP.textContent = `Tipo: ${comida.tipo}`;
+        comidaDiv.appendChild(tipoP);
 
-    const caloriasP = document.createElement('p');
-    caloriasP.textContent = `Calorías: ${comida.calorias}`;
-    comidaDiv.appendChild(caloriasP);
+        const ingredientesP = document.createElement('p');
+        ingredientesP.textContent = `Ingredientes: ${comida.ingredientes.join(', ')}`;
+        comidaDiv.appendChild(ingredientesP);
 
-    infoDiv.appendChild(comidaDiv);
+        const caloriasP = document.createElement('p');
+        caloriasP.textContent = `Calorías: ${comida.calorias}`;
+        comidaDiv.appendChild(caloriasP);
+
+        
+
+        infoDiv.appendChild(comidaDiv);
+    });
+})
+.catch(error => {
+    console.error('Error al cargar el JSON:', error);
 });
