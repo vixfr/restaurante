@@ -3,24 +3,30 @@
     "nombre": "Pizza",
     "tipo": "Comida rápida",
     "ingredientes": ["Masa", "Salsa de tomate", "Queso", "Pepperoni"],
-    "calorias": 285
+    "calorias": 285,
+    "imagen": "https://www.laespanolaaceites.com/wp-content/uploads/2019/06/pizza-con-chorizo-jamon-y-queso-1080x671.jpg"
   },
   {
     "nombre": "Ensalada César",
     "tipo": "Ensalada",
     "ingredientes": ["Lechuga romana", "Pollo a la parrilla", "Croutones", "Queso parmesano", "Aderezo César"],
-    "calorias": 180
+    "calorias": 180,
+    "imagen": "https://clasicoygourmet.com/wp-content/uploads/2017/07/ensaladacesar.jpg"
+
   },
   {
     "nombre": "Sushi",
     "tipo": "Comida japonesa",
     "ingredientes": ["Arroz", "Pescado fresco", "Alga nori", "Aguacate", "Pepino"],
-    "calorias": 330
+    "calorias": 330,
+    "imagen": "https://s2.ppllstatics.com/diariovasco/www/multimedia/201906/21/media/cortadas/sushi-kUME-RWxzUmzbw5PuuJZkhK9rUeP-624x385@Diario%20Vasco.jpg"
+    
   },
   {
     "nombre": "Pastel de Chocolate",
     "tipo": "Postre",
     "ingredientes": ["Harina", "Azúcar", "Cacao en polvo", "Huevos", "Mantequilla", "Chocolate"],
-    "calorias": 420
+    "calorias": 420,
+    "imagen": "https://content-cocina.lecturas.com/medio/2023/03/23/el-mejor-pastel-de-chocolate_b43ef72b_900x900.jpg"
   }
 ]
