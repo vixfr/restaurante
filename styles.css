@@ -5,7 +5,7 @@ body {
 h1 {
     text-align: center;     /* Centrar el texto */
     font-size: 36px;        /* Tamaño de la fuente */
-    color: #f00c0c;            /* Color del texto */
+    color:white;            /* Color del texto */
     background-color: #1b75be; /* Color de fondo */
     padding: 20px;          /* Espaciado interno */
     border-radius: 10px;    /* Borde redondeado */
@@ -39,4 +39,9 @@ h1 {
 .calorias {
   font-size: 14px;
   color: #888;
+}
+
+img{
+  border-radius: 8px;
+
 }
