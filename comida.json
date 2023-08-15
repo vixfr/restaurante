@@ -1,0 +1,26 @@
+[
+  {
+    "nombre": "Pizza",
+    "tipo": "Comida rápida",
+    "ingredientes": ["Masa", "Salsa de tomate", "Queso", "Pepperoni"],
+    "calorias": 285
+  },
+  {
+    "nombre": "Ensalada César",
+    "tipo": "Ensalada",
+    "ingredientes": ["Lechuga romana", "Pollo a la parrilla", "Croutones", "Queso parmesano", "Aderezo César"],
+    "calorias": 180
+  },
+  {
+    "nombre": "Sushi",
+    "tipo": "Comida japonesa",
+    "ingredientes": ["Arroz", "Pescado fresco", "Alga nori", "Aguacate", "Pepino"],
+    "calorias": 330
+  },
+  {
+    "nombre": "Pastel de Chocolate",
+    "tipo": "Postre",
+    "ingredientes": ["Harina", "Azúcar", "Cacao en polvo", "Huevos", "Mantequilla", "Chocolate"],
+    "calorias": 420
+  }
+]
