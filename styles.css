@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-/* Estilos para el título centrado */
+
 h1 {
     text-align: center;     /* Centrar el texto */
     font-size: 36px;        /* Tamaño de la fuente */
@@ -12,10 +11,8 @@ h1 {
     width: 60%;             /* Ancho del título */
     font-family: Arial, sans-serif; /* Tipo de fuente */
   }
-  .comida-card {
-=======
+
 .comida-card {
->>>>>>> Stashed changes
   border: 1px solid #ccc;
   padding: 10px;
   margin: 10px;
