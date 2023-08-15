@@ -1,5 +1,12 @@
 body {
-    background-color: aqua;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-image: linear-gradient(to bottom right, #ffcc00, #ff5500);
+  color: white;
+  margin: 0;
+  padding: 0;
+  justify-content: center; 
+  height: 100vh;
+  
 }
 
 h1 {
