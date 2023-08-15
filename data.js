@@ -23,7 +23,11 @@ fetch('comida.json')
         caloriasP.textContent = `Calorías: ${comida.calorias}`;
         comidaDiv.appendChild(caloriasP);
 
-        
+        const imagen = document.createElement('img');
+        imagen.src = comida.imagen;
+        imagen.alt = comida.nombre;
+        imagen.style.width = '300px'; // Ajusta el tamaño de la imagen según tu preferencia
+        comidaDiv.appendChild(imagen);
 
         infoDiv.appendChild(comidaDiv);
     });
