@@ -11,4 +11,29 @@ h1 {
     width: 60%;             /* Ancho del título */
     font-family: Arial, sans-serif; /* Tipo de fuente */
   }
-  
+  .comida-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.nombre-comida {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+.tipo-comida {
+  font-style: italic;
+  color: #777;
+}
+.lista-ingredientes {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #555;
+}
+.calorias {
+  font-size: 14px;
+  color: #888;
+}
